@@ -1,0 +1,13 @@
+venv/
+*.pyc
+__pycache__/
+.cache/
+.DS_Store
+
+mobile/build/
+mobile/.dart_tool/
+mobile/.idea/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.pub-cache/
+mobile/*.iml

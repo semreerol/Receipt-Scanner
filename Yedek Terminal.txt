@@ -1,0 +1,12 @@
+uvicorn api:app --host 0.0.0.0 --port 8000
+
+python -m venv venv                 
+source venv/bin/activate
+
+pip install tensorflow   
+pip install matplotlib      
+pip install "python-doctr[tensorflow]"
+pip install mplcursors      
+pip install fastapi uvicorn "python-doctr[tensorflow]"
+pip install python-multipart
+pip install Pillow
